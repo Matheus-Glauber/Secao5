@@ -6,25 +6,24 @@ namespace Modulo15.entities
 {
     class Instrutor
     {
-        public HashSet<Aluno> alunos { get; set; }
+        
 
-        public List<Curso> cursos { get; set; }
+        public List<Curso> Cursos { get; set; }
 
-        public Instrutor(HashSet<Aluno> alunos, List<Curso> cursos)
+        public Instrutor(List<Curso> cursos)
         {
-            this.alunos = alunos;
-            this.cursos = cursos;
+            Cursos = cursos;
         }
 
         public override bool Equals(object obj)
         {
             return obj is Instrutor instrutor &&
-                   EqualityComparer<List<Curso>>.Default.Equals(cursos, instrutor.cursos);
+                   EqualityComparer<List<Curso>>.Default.Equals(Cursos, instrutor.Cursos);
         }
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(cursos);
+            return HashCode.Combine(Cursos);
         }
     }
 }

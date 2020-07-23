@@ -9,9 +9,12 @@ namespace Modulo15.entities
     {
         public String Nome { get; set; }
 
-        public Curso(string nome)
+        public HashSet<Aluno> Alunos { get; set; }
+
+        public Curso(string nome, HashSet<Aluno> lista)
         {
             Nome = nome;
+            Alunos = lista;
         }
 
         public override bool Equals(object obj)
