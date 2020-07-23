@@ -25,5 +25,23 @@ namespace Modulo15.entities
         {
             return HashCode.Combine(Cursos);
         }
+
+        public int TotalAlunos()
+        {
+            List<Aluno> listaDeAlunos = new List<Aluno>();
+
+            foreach (var curso in Cursos)
+            {
+                foreach (var aluno in curso.Alunos)
+                {
+                    if (!listaDeAlunos.Contains(aluno))
+                    {
+                        listaDeAlunos.Add(aluno);
+                    }
+                }
+            }
+
+            return listaDeAlunos.Count;
+        }
     }
 }
