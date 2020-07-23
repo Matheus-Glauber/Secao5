@@ -1,0 +1,13 @@
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\bin\Debug\netcoreapp3.1\Modulo15.exe
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\bin\Debug\netcoreapp3.1\Modulo15.deps.json
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\bin\Debug\netcoreapp3.1\Modulo15.runtimeconfig.json
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\bin\Debug\netcoreapp3.1\Modulo15.runtimeconfig.dev.json
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\bin\Debug\netcoreapp3.1\Modulo15.dll
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\bin\Debug\netcoreapp3.1\Modulo15.pdb
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.csprojAssemblyReference.cache
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.AssemblyInfoInputs.cache
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.AssemblyInfo.cs
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.csproj.CoreCompileInputs.cache
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.dll
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.pdb
+C:\Users\MatheusGlauber\source\repos\Modulo15\Modulo15\obj\Debug\netcoreapp3.1\Modulo15.genruntimeconfig.cache
