@@ -5,9 +5,7 @@ using System.Text;
 namespace Modulo15.entities
 {
     class Instrutor
-    {
-        
-
+    {        
         public List<Curso> Cursos { get; set; }
 
         public Instrutor(List<Curso> cursos)

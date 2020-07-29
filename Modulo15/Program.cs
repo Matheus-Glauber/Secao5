@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
+using System.Linq;
 
 namespace Modulo15
 {
@@ -36,6 +38,34 @@ namespace Modulo15
             instrutor.Cursos.Add(CursoC);
 
             Console.WriteLine("Total Students: " + instrutor.TotalAlunos());
+
+            string source = @"C:\Users\MatheusGlauber\source\repos\Modulo15\votos.csv";
+
+            string[] line = File.ReadAllLines(source);
+
+            Dictionary<string, int> dicionario = new Dictionary<string, int>();
+
+            foreach (var item in line)
+            {
+                string[] separado = item.Split(",");
+                string nome = separado[0];
+                int votos = int.Parse(separado[1]);
+                
+                if (dicionario.ContainsKey(nome))
+                {
+                    dicionario[nome] += votos;
+                }
+                else
+                {
+                    dicionario[nome] = votos;
+                }
+            }
+
+            Console.WriteLine("Total votes by candidates:");
+            foreach (var dados in dicionario)
+            {
+                Console.WriteLine(dados.Key + ": " + dados.Value);
+            }
         }
     }
 }
